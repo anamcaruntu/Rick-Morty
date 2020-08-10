@@ -14,9 +14,8 @@ $blue-light: #14d9c4;
   margin-right: 1rem;
   margin-bottom: 1rem;
   width: 15rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   background-color: $blue-mid;
-  border: 0.1875rem solid $blue-light;
   &:hover {
     box-shadow: 2px 2px 2px 2px #ccff00;
     transform: scale(1.02);
@@ -33,7 +32,7 @@ $blue-light: #14d9c4;
   margin: 0;
   padding: 0.3rem 1rem;
   font-size: 1.8rem;
-  color: white;
+  color: #ccff00;
 }
 
 .card__description {
@@ -55,13 +54,12 @@ $blue-light: #14d9c4;
   max-width: 60rem;
   border-radius: 0.5rem;
   background-color: $blue-mid;
-  border: 0.1875rem solid $blue-light;
   overflow: hidden;
   transition: 0.25s all;
 }
 
 .App {
-  background-color: black;
+  background-color: rgb(228, 219, 219);
   height: 100%;
 }
 
