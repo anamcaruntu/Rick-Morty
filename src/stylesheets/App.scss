@@ -1,0 +1,124 @@
+$blue-mid: #20a0cf;
+$blue-light: #14d9c4;
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  width: 15rem;
+  border-radius: 0.5rem;
+  background-color: $blue-mid;
+  border: 0.1875rem solid $blue-light;
+  &:hover {
+    box-shadow: 2px 2px 2px 2px #ccff00;
+    transform: scale(1.02);
+    transition: box-shadow 0.2s;
+  }
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__title {
+  display: block;
+  margin: 0;
+  padding: 0.3rem 1rem;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.card__description {
+  display: block;
+  margin: 0;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.card_detail {
+  padding: 1em 1em;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  max-width: 60rem;
+  border-radius: 0.5rem;
+  background-color: $blue-mid;
+  border: 0.1875rem solid $blue-light;
+  overflow: hidden;
+  transition: 0.25s all;
+}
+
+.App {
+  background-color: black;
+  height: 100%;
+}
+
+.background {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+li {
+  list-style: none;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: white;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.btn {
+  height: 2em;
+  width: 15em;
+  border-radius: 1em;
+  color: grey;
+  background-color: $blue-light;
+  &:hover {
+    background-color: $blue-mid;
+    height: 2em;
+    color: #d8d8d8;
+    transition: background-color 0.2s;
+  }
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 30%;
+  border: 3px solid greenyellow;
+}
